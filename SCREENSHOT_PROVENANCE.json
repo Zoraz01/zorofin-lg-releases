@@ -1,0 +1,39 @@
+{
+  "capturedDate": "2026-11-06",
+  "source": "d81819a087f144cba00344501b6fa6d9111a865a",
+  "appId": "org.zorofin.tv.validation.n20261106",
+  "metadataVersion": "1.2.1",
+  "productionAppId": "org.zorofin.tv",
+  "productionVersion": "1.2.0",
+  "productionPackageSha256": "9c44b6a9c62e6ef47c7ac058dcf1b391123b02ff17ebb13ffa76d595efbbf3ee",
+  "allNineCodeAssetsEqualProduction": true,
+  "identityOverrideOnly": true,
+  "device": "LG OLED77B5PUA.DUSQLJR",
+  "os": "webOS25 / SDK10.3.2 / firmware33.31.75",
+  "realSampleLibraryMovieCount": 9,
+  "fictionalPreview": false,
+  "privateServerOrAccountContent": false,
+  "composition": "iOS/Apple TV-style branding around complete actual LG app captures; original capture pixels preserved.",
+  "marketingFiles": [
+    {
+      "file": "01-home.png",
+      "sha256": "decde9b797ddc62fab2ab113c56cf71a63cb1b6585b2f1e8c91cbfa14fcfb834",
+      "bytes": 866413
+    },
+    {
+      "file": "02-library.png",
+      "sha256": "0cd372f028ec02dff9413ff848fb332b5f31392ee400af95cc959b96e886480f",
+      "bytes": 1018984
+    },
+    {
+      "file": "03-spring-details.png",
+      "sha256": "e60512a22105c8195526b6f030f9845337545f38f93524b28faf0e841b67c2a8",
+      "bytes": 642181
+    },
+    {
+      "file": "04-cosmos-details.png",
+      "sha256": "a07ba80617e84e50e8ddf1922df22907a31c4f6c4b6fe5bee1fc4435076f4c5e",
+      "bytes": 655838
+    }
+  ]
+}
