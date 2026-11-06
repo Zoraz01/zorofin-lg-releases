@@ -1,0 +1,175 @@
+{
+  "catalogImagePreviews": [
+    {
+      "url": "https://raw.githubusercontent.com/Zoraz01/zorofin-lg-releases/a7dbe6614ed25e81b7f81919626d5e83f44ee25d/artwork/lg-1.2.0/icon.png",
+      "contentType": "image/png",
+      "status": 200,
+      "sha256": "9d93b3ca9db6cf96f070d714c14500f54a4cb9a457270f16b725503ca46644e2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Zoraz01/zorofin-lg-releases/a7dbe6614ed25e81b7f81919626d5e83f44ee25d/artwork/lg-1.2.0/01-home.png",
+      "contentType": "image/png",
+      "status": 200,
+      "sha256": "decde9b797ddc62fab2ab113c56cf71a63cb1b6585b2f1e8c91cbfa14fcfb834"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Zoraz01/zorofin-lg-releases/a7dbe6614ed25e81b7f81919626d5e83f44ee25d/artwork/lg-1.2.0/02-library.png",
+      "contentType": "image/png",
+      "status": 200,
+      "sha256": "0cd372f028ec02dff9413ff848fb332b5f31392ee400af95cc959b96e886480f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Zoraz01/zorofin-lg-releases/a7dbe6614ed25e81b7f81919626d5e83f44ee25d/artwork/lg-1.2.0/03-spring-details.png",
+      "contentType": "image/png",
+      "status": 200,
+      "sha256": "e60512a22105c8195526b6f030f9845337545f38f93524b28faf0e841b67c2a8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Zoraz01/zorofin-lg-releases/a7dbe6614ed25e81b7f81919626d5e83f44ee25d/artwork/lg-1.2.0/04-cosmos-details.png",
+      "contentType": "image/png",
+      "status": 200,
+      "sha256": "a07ba80617e84e50e8ddf1922df22907a31c4f6c4b6fe5bee1fc4435076f4c5e"
+    }
+  ],
+  "release": "https://github.com/Zoraz01/zorofin-lg-releases/releases/tag/lg-v1.2.0",
+  "anonymous": true,
+  "transport": "curl with normal system TLS trust; Python framework CA store unavailable",
+  "authorizationHeaderUsed": false,
+  "allPassed": true,
+  "assets": [
+    {
+      "file": "01-home.png",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/01-home.png",
+      "status": 200,
+      "bytes": 866413,
+      "sha256": "decde9b797ddc62fab2ab113c56cf71a63cb1b6585b2f1e8c91cbfa14fcfb834",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "02-library.png",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/02-library.png",
+      "status": 200,
+      "bytes": 1018984,
+      "sha256": "0cd372f028ec02dff9413ff848fb332b5f31392ee400af95cc959b96e886480f",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "03-spring-details.png",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/03-spring-details.png",
+      "status": 200,
+      "bytes": 642181,
+      "sha256": "e60512a22105c8195526b6f030f9845337545f38f93524b28faf0e841b67c2a8",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "04-cosmos-details.png",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/04-cosmos-details.png",
+      "status": 200,
+      "bytes": 655838,
+      "sha256": "a07ba80617e84e50e8ddf1922df22907a31c4f6c4b6fe5bee1fc4435076f4c5e",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "CREDITS.md",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/CREDITS.md",
+      "status": 200,
+      "bytes": 3211,
+      "sha256": "d19de6c78d9b994e8f7c91b68bf7fb8adfb926a242820eee109072525956ab87",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "INSTALL.md",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/INSTALL.md",
+      "status": 200,
+      "bytes": 1357,
+      "sha256": "3ae659b30a6be852b649f26895bf2ae11156a130f179267f43607374a03b42d8",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "RELEASE_NOTES.md",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/RELEASE_NOTES.md",
+      "status": 200,
+      "bytes": 1923,
+      "sha256": "82c6463c4e4c8590e28dfa5669fd32ea5cb76b7efdaf2d6ccba5d3c8a9b3d2f4",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "SCREENSHOT_PROVENANCE.json",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/SCREENSHOT_PROVENANCE.json",
+      "status": 200,
+      "bytes": 1375,
+      "sha256": "7045fe5583ff25b79d1e246718e00d4db11dd954a0eaa0a10d634482c024c13f",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "SHA256SUMS",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/SHA256SUMS",
+      "status": 200,
+      "bytes": 1315,
+      "sha256": "053757a8fb77dcf25bbe7c67fdff994de189e8c974027b702cbb4086ecd1c321",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "SOURCE.json",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/SOURCE.json",
+      "status": 200,
+      "bytes": 228,
+      "sha256": "82a7256c3f4d3976b4d0c2cad2f0e05f61575c909834b6871ace1c627c5f170a",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "icon.png",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/icon.png",
+      "status": 200,
+      "bytes": 5945,
+      "sha256": "9d93b3ca9db6cf96f070d714c14500f54a4cb9a457270f16b725503ca46644e2",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "Inter-LICENSE.txt",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/Inter-LICENSE.txt",
+      "status": 200,
+      "bytes": 4380,
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "LICENSE-2.0.txt",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/LICENSE-2.0.txt",
+      "status": 200,
+      "bytes": 11325,
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "org.zorofin.tv.manifest.json",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/org.zorofin.tv.manifest.json",
+      "status": 200,
+      "bytes": 598,
+      "sha256": "ad6c20c30e05b14b0dcb93046b202e6aebd722de039bbf01e7429665996dc876",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "org.zorofin.tv_1.2.0_all.ipk",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/org.zorofin.tv_1.2.0_all.ipk",
+      "status": 200,
+      "bytes": 1987646,
+      "sha256": "9c44b6a9c62e6ef47c7ac058dcf1b391123b02ff17ebb13ffa76d595efbbf3ee",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "zorofin-lg-1.2.0-sideload.zip",
+      "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/zorofin-lg-1.2.0-sideload.zip",
+      "status": 200,
+      "bytes": 5125029,
+      "sha256": "312514823fe3832c06cff15f80322b6417f5cb4d0ba12bb851b754bc06df59b8",
+      "contentType": "application/octet-stream"
+    }
+  ],
+  "stableLatestManifest": {
+    "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/latest/download/org.zorofin.tv.manifest.json",
+    "exactMatch": true
+  },
+  "appSource": "d81819a087f144cba00344501b6fa6d9111a865a",
+  "deviceAcceptance": "Existing LG source5 evidence only; no new device test"
+}

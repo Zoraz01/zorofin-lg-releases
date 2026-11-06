@@ -1,0 +1,40 @@
+[
+  {
+    "check": "catalog-lint",
+    "exitCode": 0,
+    "command": [
+      "/audit/venv-linux/bin/python",
+      "-m",
+      "repogen.lintpkg",
+      "-f",
+      "/catalog/org.zorofin.tv.yml",
+      "--new"
+    ]
+  },
+  {
+    "check": "download-ipk",
+    "exitCode": 0,
+    "command": [
+      "/audit/venv-linux/bin/python",
+      "-m",
+      "repogen.downloadipk",
+      "-i",
+      "/catalog/org.zorofin.tv.yml",
+      "-o",
+      "/audit/public-download.ipk"
+    ]
+  },
+  {
+    "check": "declared-compatibility",
+    "exitCode": 0,
+    "command": [
+      "/audit/venv-linux/bin/python",
+      "-m",
+      "repogen.check_compat",
+      "-i",
+      "/catalog/org.zorofin.tv.yml",
+      "-p",
+      "/audit/public-download.ipk"
+    ]
+  }
+]
