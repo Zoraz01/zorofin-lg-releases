@@ -23,5 +23,8 @@
       "url": "https://github.com/Zoraz01/zorofin-lg-releases/releases/download/lg-v1.2.0/04-cosmos-details.png",
       "caption": "Great stories. Your big screen."
     }
-  ]
+  ],
+  "requirements": {
+    "webosRelease": ">=10.2.0"
+  }
 }
