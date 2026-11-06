@@ -3,7 +3,7 @@
 This repository contains public release records and catalog metadata. Application development/building happens separately. Import only an independently tested production package and its clean source receipt; never import private Git history or an entire development folder.
 
 1. Prepare a new ignored `_release/assets/` directory containing the exact IPK, manifest, icon, marketing images, credits, notices, installation instructions, source receipt and checksum file. The 1.2.0 source/hash are in SOURCE.json. Preserve the stable app ID.
-2. Render versioned GitHub Release URLs in the manifest and screenshots. Keep `catalog/org.zorofin.tv.yml` pointed at the latest release manifest. Do not change a published IPK while retaining its version/hash.
+2. Use GitHub Releases for the IPK/manifest download and commit-pinned raw.githubusercontent.com URLs for the icon and screenshot previews; release download responses may be application/octet-stream. Keep `catalog/org.zorofin.tv.yml` pointed at the latest release manifest. Do not change a published IPK while retaining its version/hash.
 3. Verify SHA256/bytes, the package's embedded identity, every license/credit and all marketing provenance. Run the current upstream webOSbrew schema, network, IPK identity and compatibility checks locally. Separate automated evidence from physical-device acceptance.
 4. Verify Actions remain disabled before pushing release documentation:
 
