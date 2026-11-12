@@ -1,0 +1,14 @@
+[
+  {
+    "check": "catalog-lint",
+    "exitCode": 0
+  },
+  {
+    "check": "download-ipk",
+    "exitCode": 0
+  },
+  {
+    "check": "declared-compatibility",
+    "exitCode": 0
+  }
+]
