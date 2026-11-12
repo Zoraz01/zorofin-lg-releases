@@ -26,3 +26,18 @@ cross-store, other-model, HDR and endurance acceptance remain separate.
 Existing artwork and SCREENSHOT_PROVENANCE.json describe historical 1.2.0
 sample-library captures. They have not been relabeled as new 1.4 captures.
 Public URL and catalog checks are recorded separately after publication.
+
+## Published URL and catalog checks
+
+All 16 versioned release assets were anonymously fetched using normal HTTPS;
+`public-url-verification.json` records the exact bytes and SHA-256 values.
+The Latest manifest was separately verified as version 1.4.0 with the final
+IPK hash/size above after promotion from prerelease.
+
+The current upstream validators at apps-repo
+`72513e1beee74070119cb21b8f5f3b24184f79b9` exited 0 for catalog lint,
+public IPK identity/hash and declared compatibility. Their reports and exit
+records are retained here. Homebrew PR #333's package-lint and final PR checks
+also passed on head `b4f279ffa911c83c675d31c27f9889e05ff07ec3`. It remains
+open and awaiting maintainer review as of November 12, 2026; passing checks
+are not catalog acceptance.

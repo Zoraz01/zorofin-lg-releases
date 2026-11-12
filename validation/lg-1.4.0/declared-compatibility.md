@@ -1,14 +1,13 @@
-## Package org.zorofin.tv
 
 ### App org.zorofin.tv
 
 Web app — Plain HTML/JS; webOSTV.js; requires ES2020
 
-|                | 10.2.0       | 11.2.0       |
+|  | 10.2.0 | 11.2.0 |
 |----------------|--------------|--------------|
-| Web engine     | Chromium 120 | Chromium 132 |
-| ES2020 support | :ok:         | :ok:         |
-| Runtime APIs   | :ok:         | :ok:         |
+| Web engine | Chromium 120 | Chromium 132 |
+| ES2020 support | :ok: | :ok: |
+| Runtime APIs | :ok: | :ok: |
 
 
 #### Web app
