@@ -4,4 +4,4 @@ Keep this repository limited to release metadata, public documentation and notic
 
 Actions must remain disabled. Do not add workflows. Preserve app ID and exact tested IPK bytes; no repackaging or binary modification. Build and device acceptance are separate from community/store acceptance. Release files under `_release/` are ignored staging; publish only its reviewed asset allowlist. Use scoped tool-neutral branches for updates. Preserve third-party licenses, film credits and screenshot provenance.
 
-Current package source: d81819a087f144cba00344501b6fa6d9111a865a, dirty=false. The tag in this repository identifies release documentation, not the private application source revision. The owner authorized publication for webOSbrew/Homebrew and confirmed human source review and TV testing.
+Current package source and checksums are recorded in SOURCE.json. Preserve historical screenshot provenance. The owner confirmed human review and TV testing of the 1.4 baseline and requested its Catch Up focus correction before publication; final corrected-package automated checks and physical retesting are separate evidence.
