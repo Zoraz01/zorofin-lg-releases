@@ -1,17 +1,36 @@
-# Zorofin LG 1.2.0
+# Zorofin LG 1.4.0
 
-Your Jellyfin library, on your LG TV. Browse movies and shows, continue watching, switch accounts and use supported Live TV.
+Your Jellyfin library, on your LG TV.
 
-- Saved sign-in defaults on when protected storage is available.
-- Optional compatible-server Home rows with ordinary Jellyfin fallback.
-- Next-episode autoplay and watched-completion retry/recovery.
-- Episode selector opens at the current/next episode.
-- Device-dependent playback with Jellyfin conversion for unsupported formats.
+- Live TV opens Programs with Sports & live events and On now, alongside Guide.
+- Catch Up has larger artwork, clearer actions, filters and Skip/Undo controls.
+- Corrects Catch Up remote focus by binding the app's focus helper.
+- Sign out appears last in the account menu.
+- Compatible servers can expose optional looks, Calendar and Catch Up features.
+  Ordinary Jellyfin browsing and playback still work without these extras.
 
-This is the exact production `org.zorofin.tv` 1.2.0 IPK submitted to LG. It was not rebuilt for Homebrew. Full source revision: `d81819a087f144cba00344501b6fa6d9111a865a`; clean build. SHA256: `9c44b6a9c62e6ef47c7ac058dcf1b391123b02ff17ebb13ffa76d595efbbf3ee`; 1,987,646 bytes.
+Production identity: `org.zorofin.tv`, version `1.4.0`. Clean source:
+`0cbf921bf81e0df45cf6f6c4e91155c30b1244ef`. IPK: 2,000,618 bytes. SHA-256:
+`a1c78155e6bbfdf0991d2eb3bf470961ae49c0155a1ce86845aa4eeedd504133`. The package was built from source for this release;
+it is not a relabeled 1.2.0 binary.
 
-Validation includes 127 LG DOM tests, 201 shared Dart tests and packaged bridge checks. Recorded LG B5/webOS 25 diagnostics include completion/watched state, autoplay, encrypted sign-in restore, episode navigation, codec/HLS and short 4K SDR playback. The owner reports physical TV testing and human review of the generated LG source. These do not establish older-device, Homebrew/rooted, cross-store upgrade, HDR or high-bitrate endurance acceptance. Native Flutter webOS is deferred; this is the fast HTML/CSS/JS Web client with a shared Dart bridge.
+The owner confirmed TV testing and human code review of the installed 1.4
+baseline on November 12, then explicitly requested the Catch Up focus correction
+before publication. The corrected source passes all 134 LG DOM regressions.
+The corrected IPK's identity, embedded focus binding, notices and privacy boundary
+were checked. This publication task did not install or retest the corrected IPK
+on a TV. Baseline device installation/readback was on LG B5/webOS 25. Other
+models, Homebrew/rooted installation, cross-store updates, HDR and endurance
+remain separate acceptance cases.
 
-Zorofin requires no media subscription or root. You provide your own server and lawful media. Optional plugin/Companion availability and setup are separate. Library 4K/HDR labels are not blanket playback guarantees. Screenshot films are not included; see CREDITS.md and SCREENSHOT_PROVENANCE.json. Third-party software licenses are in notices/ in the sideload ZIP.
+The optional features depend on services advertised by the user's own server.
+No server, account, media library, channels or subscription is included. No root
+is required. Install with Developer Mode and DevMode Manager using INSTALL.md.
+Keep the previous release for rollback; uninstalling may remove saved accounts.
 
-AI tools assisted development, testing and release preparation. The Homebrew declaration records the owner's confirmation of human source review and TV testing. Community listing/approval and LG Store QA are independent of this binary download.
+Existing screenshot images and SCREENSHOT_PROVENANCE.json remain historical
+1.2.0 sample-library captures, not new 1.4 screenshots. Their film credits,
+licenses and original attribution are preserved. AI tools assisted development,
+testing and release preparation. LG Store approval and webOSbrew catalog
+acceptance are independent of this direct download. This task does not establish
+a new LG Store submission or approval.

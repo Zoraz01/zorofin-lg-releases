@@ -1,8 +1,19 @@
 {
   "appId": "org.zorofin.tv",
-  "version": "1.2.0",
-  "source": "d81819a087f144cba00344501b6fa6d9111a865a",
+  "version": "1.4.0",
+  "source": "0cbf921bf81e0df45cf6f6c4e91155c30b1244ef",
   "dirty": false,
-  "sha256": "9c44b6a9c62e6ef47c7ac058dcf1b391123b02ff17ebb13ffa76d595efbbf3ee",
-  "bytes": 1987646
+  "sha256": "a1c78155e6bbfdf0991d2eb3bf470961ae49c0155a1ce86845aa4eeedd504133",
+  "bytes": 2000618,
+  "baselineSource": "a3820e72cf3da90c781a240ac1426209f8bf3733",
+  "validation": {
+    "ownerConfirmedBaselineTVTestingAndHumanReview": "2026-11-12",
+    "ownerApprovedCatchUpFocusFix": "2026-11-12",
+    "correctedSourceDOMTests": {
+      "passed": 134,
+      "failed": 0
+    },
+    "correctedPackagePhysicalRetest": "Not performed in this release task",
+    "screenshotVersion": "1.2.0 historical reference captures"
+  }
 }
