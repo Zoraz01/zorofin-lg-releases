@@ -1,36 +1,35 @@
-# Zorofin LG 1.4.0
+# Zorofin LG 1.5.0
 
 Your Jellyfin library, on your LG TV.
 
-- Live TV opens Programs with Sports & live events and On now, alongside Guide.
-- Catch Up has larger artwork, clearer actions, filters and Skip/Undo controls.
-- Corrects Catch Up remote focus by binding the app's focus helper.
-- Sign out appears last in the account menu.
-- Compatible servers can expose optional looks, Calendar and Catch Up features.
-  Ordinary Jellyfin browsing and playback still work without these extras.
+- Blu-ray (PGS) subtitles are drawn on the TV, so the server no longer
+  re-encodes the video to burn them in. Styled (ASS/SSA) subtitles keep their
+  colours, positions and italics. Playback info says where subtitles are drawn.
+- HDR titles open the HDR stream instead of falling back to SDR.
+- "Who's watching?" gives everyone their own profile, progress and rows.
+- Trailer previews play when you rest on a poster in a row.
+- Continue Watching keeps unfinished titles and the next episode together.
+- Player: Skip intro, subtitle timing, and chapters (off by default; turn them
+  on in Settings).
 
-Production identity: `org.zorofin.tv`, version `1.4.0`. Clean source:
-`0cbf921bf81e0df45cf6f6c4e91155c30b1244ef`. IPK: 2,000,618 bytes. SHA-256:
-`a1c78155e6bbfdf0991d2eb3bf470961ae49c0155a1ce86845aa4eeedd504133`. The package was built from source for this release;
-it is not a relabeled 1.2.0 binary.
+Production identity: `org.zorofin.tv`, version `1.5.0`. Clean source:
+`09abca3429bf77ffb72a88bc173b768c395c3da5`. IPK: `2,090,712` bytes. SHA-256: `4a2ee3c43e0179f878df4d25f3ecd7c33255ba7c91e3391fb34264e1658e6b77`.
 
-The owner confirmed TV testing and human code review of the installed 1.4
-baseline on November 12, then explicitly requested the Catch Up focus correction
-before publication. The corrected source passes all 134 LG DOM regressions.
-The corrected IPK's identity, embedded focus binding, notices and privacy boundary
-were checked. This publication task did not install or retest the corrected IPK
-on a TV. Baseline device installation/readback was on LG B5/webOS 25. Other
-models, Homebrew/rooted installation, cross-store updates, HDR and endurance
-remain separate acceptance cases.
+Tested in the 1.5 QA pass on an LG B5, including this exact package. Other
+models, Homebrew/rooted installation and switching between store and sideloaded
+copies are separate acceptance cases.
 
-The optional features depend on services advertised by the user's own server.
-No server, account, media library, channels or subscription is included. No root
-is required. Install with Developer Mode and DevMode Manager using INSTALL.md.
-Keep the previous release for rollback; uninstalling may remove saved accounts.
+Works with ordinary Jellyfin servers. Optional features (Home rows, Pick
+Together, Catch Up, Calendar, Requests, Live TV scores) appear when the server
+has the free Zorofin plugin and Companion. No server, account, media, channels
+or subscription is included. No root is required. Install with Developer Mode
+and DevMode Manager using INSTALL.md. Install over the existing app to update;
+uninstalling may remove saved accounts. LG 1.4.0 stays available for rollback.
 
-Existing screenshot images and SCREENSHOT_PROVENANCE.json remain historical
-1.2.0 sample-library captures, not new 1.4 screenshots. Their film credits,
-licenses and original attribution are preserved. AI tools assisted development,
-testing and release preparation. LG Store approval and webOSbrew catalog
-acceptance are independent of this direct download. This task does not establish
-a new LG Store submission or approval.
+Screenshots are the historical 1.2.0 sample-library captures (see
+SCREENSHOT_PROVENANCE.json), not new 1.5 captures.
+
+Third-party code: libpgs 0.9.0 (MIT) and webOSTV.js 1.2.13 (Apache-2.0); licences
+are in `notices/`. AI tools assisted development, testing and release
+preparation. LG Store approval and webOSbrew catalog acceptance are independent
+of this direct download.

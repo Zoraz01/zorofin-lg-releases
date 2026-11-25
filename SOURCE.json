@@ -1,19 +1,12 @@
 {
   "appId": "org.zorofin.tv",
-  "version": "1.4.0",
-  "source": "0cbf921bf81e0df45cf6f6c4e91155c30b1244ef",
+  "version": "1.5.0",
+  "source": "09abca3429bf77ffb72a88bc173b768c395c3da5",
   "dirty": false,
-  "sha256": "a1c78155e6bbfdf0991d2eb3bf470961ae49c0155a1ce86845aa4eeedd504133",
-  "bytes": 2000618,
-  "baselineSource": "a3820e72cf3da90c781a240ac1426209f8bf3733",
+  "sha256": "4a2ee3c43e0179f878df4d25f3ecd7c33255ba7c91e3391fb34264e1658e6b77",
+  "bytes": 2090712,
   "validation": {
-    "ownerConfirmedBaselineTVTestingAndHumanReview": "2026-11-12",
-    "ownerApprovedCatchUpFocusFix": "2026-11-12",
-    "correctedSourceDOMTests": {
-      "passed": 134,
-      "failed": 0
-    },
-    "correctedPackagePhysicalRetest": "Not performed in this release task",
+    "qaPass": "1.5 testing, November 24 2026: all LG checklist items passed on LG B5; this exact package checked on the TV Nov 24 5:00-5:06 PM ET",
     "screenshotVersion": "1.2.0 historical reference captures"
   }
 }
